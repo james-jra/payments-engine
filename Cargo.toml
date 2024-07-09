@@ -1,0 +1,18 @@
+[package]
+name = "payments-engine"
+description = "Toy payments engine"
+version = "0.1.0"
+edition = "2021"
+publish = []
+authors = ["James Andrew <james.andrew.dev@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/james-jra/payments-engine"
+homepage = "https://github.com/james-jra/payments-engine"
+
+[dependencies]
+csv = "1.3"
+rust_decimal = "1.35"
+serde = {version = "1", features = ["derive"]}
+
+[dev-dependencies]
+rust_decimal_macros = "1.34"
